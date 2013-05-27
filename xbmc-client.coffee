@@ -17,6 +17,7 @@ class XbmcClient extends Emitter
 	connect: (ip, port) ->
 		@ws = new WebSocket 'ws://'+ip+':'+port+'/jsonrpc'
 		@ws.addEventListener 'open', =>
+			@emit 'connected'
 			@getActivePlayers()
 	
 	sendRequest: (data, cb) ->

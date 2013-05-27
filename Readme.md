@@ -13,4 +13,4 @@
 
 ## License
 
-  MIT
+  MIT, see [LICENSE](https://github.com/fisch42/xbmc-client/blob/master/LICENSE)
