@@ -1,0 +1,14 @@
+{
+  "name": "xbmc-client",
+  "repo": "fisch42/xbmc-client",
+  "description": "XBMC Client using WebSockets.",
+  "version": "0.0.1-1",
+  "keywords": ["xbmc", "WebSockets"],
+  "dependencies": {"component/emitter": "*"},
+  "development": {},
+  "license": "MIT",
+  "main": "xbmc-client.js",
+  "scripts": [
+    "xbmc-client.js"
+  ]
+}
